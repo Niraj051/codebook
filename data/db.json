@@ -1,7 +1,7 @@
 {
   "products": [
     {
-      "id": 10001,
+      "id": "10001",
       "name": "Basics To Advanced In React",
       "overview": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Error unde quisquam magni vel eligendi nam.",
       "long_description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Soluta aut, vel ipsum maxime quam quia, quaerat tempore minus odio exercitationem illum et eos, quas ipsa aperiam magnam officiis libero expedita quo voluptas deleniti sit dolore? Praesentium tempora cumque facere consectetur quia, molestiae quam, accusamus eius corrupti laudantium aliquid! Tempore laudantium unde labore voluptates repellat, dignissimos aperiam ad ipsum laborum recusandae voluptatem non dolore. Reiciendis cum quo illum. Dolorem, molestiae corporis.",
@@ -14,20 +14,20 @@
       "best_seller": true
     },
     {
-      "id": 10002,
+      "id": "10002",
       "name": "Django Framework for Beginners",
       "overview": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Error unde quisquam magni vel eligendi nam.",
       "long_description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Soluta aut, vel ipsum maxime quam quia, quaerat tempore minus odio exercitationem illum et eos, quas ipsa aperiam magnam officiis libero expedita quo voluptas deleniti sit dolore? Praesentium tempora cumque facere consectetur quia, molestiae quam, accusamus eius corrupti laudantium aliquid! Tempore laudantium unde labore voluptates repellat, dignissimos aperiam ad ipsum laborum recusandae voluptatem non dolore. Reiciendis cum quo illum. Dolorem, molestiae corporis.",
       "price": 19,
       "poster": "https://images.unsplash.com/photo-1580894894513-541e068a3e2b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=650&q=40",
       "image_local": "/assets/images/10002.avif",
-      "rating": 5,
+      "rating": 1,
       "in_stock": true,
       "size": 2,
       "best_seller": false
     },
     {
-      "id": 10003,
+      "id": "10003",
       "name": "The Future of Design Systems",
       "overview": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Error unde quisquam magni vel eligendi nam.",
       "long_description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Soluta aut, vel ipsum maxime quam quia, quaerat tempore minus odio exercitationem illum et eos, quas ipsa aperiam magnam officiis libero expedita quo voluptas deleniti sit dolore? Praesentium tempora cumque facere consectetur quia, molestiae quam, accusamus eius corrupti laudantium aliquid! Tempore laudantium unde labore voluptates repellat, dignissimos aperiam ad ipsum laborum recusandae voluptatem non dolore. Reiciendis cum quo illum. Dolorem, molestiae corporis.",
@@ -40,20 +40,20 @@
       "best_seller": false
     },
     {
-      "id": 10004,
+      "id": "10004",
       "name": "The Complete Guide to Backend Development",
       "overview": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Error unde quisquam magni vel eligendi nam.",
       "long_description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Soluta aut, vel ipsum maxime quam quia, quaerat tempore minus odio exercitationem illum et eos, quas ipsa aperiam magnam officiis libero expedita quo voluptas deleniti sit dolore? Praesentium tempora cumque facere consectetur quia, molestiae quam, accusamus eius corrupti laudantium aliquid! Tempore laudantium unde labore voluptates repellat, dignissimos aperiam ad ipsum laborum recusandae voluptatem non dolore. Reiciendis cum quo illum. Dolorem, molestiae corporis.",
       "price": 99,
       "poster": "https://images.unsplash.com/photo-1595617795501-9661aafda72a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=650&q=40",
       "image_local": "/assets/images/10004.avif",
-      "rating": 5,
+      "rating": 1,
       "in_stock": true,
       "size": 7,
       "best_seller": true
     },
     {
-      "id": 10005,
+      "id": "10005",
       "name": "Build a Blockchain from Scratch in Go",
       "overview": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Error unde quisquam magni vel eligendi nam.",
       "long_description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Soluta aut, vel ipsum maxime quam quia, quaerat tempore minus odio exercitationem illum et eos, quas ipsa aperiam magnam officiis libero expedita quo voluptas deleniti sit dolore? Praesentium tempora cumque facere consectetur quia, molestiae quam, accusamus eius corrupti laudantium aliquid! Tempore laudantium unde labore voluptates repellat, dignissimos aperiam ad ipsum laborum recusandae voluptatem non dolore. Reiciendis cum quo illum. Dolorem, molestiae corporis.",
@@ -66,7 +66,7 @@
       "best_seller": false
     },
     {
-      "id": 10006,
+      "id": "10006",
       "name": "Frontend Fastlane Plan With Projects",
       "overview": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Error unde quisquam magni vel eligendi nam.",
       "long_description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Soluta aut, vel ipsum maxime quam quia, quaerat tempore minus odio exercitationem illum et eos, quas ipsa aperiam magnam officiis libero expedita quo voluptas deleniti sit dolore? Praesentium tempora cumque facere consectetur quia, molestiae quam, accusamus eius corrupti laudantium aliquid! Tempore laudantium unde labore voluptates repellat, dignissimos aperiam ad ipsum laborum recusandae voluptatem non dolore. Reiciendis cum quo illum. Dolorem, molestiae corporis.",
@@ -79,7 +79,7 @@
       "best_seller": false
     },
     {
-      "id": 10007,
+      "id": "10007",
       "name": "Master the Code Review",
       "overview": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Error unde quisquam magni vel eligendi nam.",
       "long_description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Soluta aut, vel ipsum maxime quam quia, quaerat tempore minus odio exercitationem illum et eos, quas ipsa aperiam magnam officiis libero expedita quo voluptas deleniti sit dolore? Praesentium tempora cumque facere consectetur quia, molestiae quam, accusamus eius corrupti laudantium aliquid! Tempore laudantium unde labore voluptates repellat, dignissimos aperiam ad ipsum laborum recusandae voluptatem non dolore. Reiciendis cum quo illum. Dolorem, molestiae corporis.",
@@ -92,7 +92,7 @@
       "best_seller": false
     },
     {
-      "id": 10008,
+      "id": "10008",
       "name": "JavaScript Basics To Advance With Shubham",
       "overview": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Error unde quisquam magni vel eligendi nam.",
       "long_description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Soluta aut, vel ipsum maxime quam quia, quaerat tempore minus odio exercitationem illum et eos, quas ipsa aperiam magnam officiis libero expedita quo voluptas deleniti sit dolore? Praesentium tempora cumque facere consectetur quia, molestiae quam, accusamus eius corrupti laudantium aliquid! Tempore laudantium unde labore voluptates repellat, dignissimos aperiam ad ipsum laborum recusandae voluptatem non dolore. Reiciendis cum quo illum. Dolorem, molestiae corporis.",
@@ -105,7 +105,7 @@
       "best_seller": true
     },
     {
-      "id": 10009,
+      "id": "10009",
       "name": "Python Deep Dive With Projects",
       "overview": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Error unde quisquam magni vel eligendi nam.",
       "long_description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Soluta aut, vel ipsum maxime quam quia, quaerat tempore minus odio exercitationem illum et eos, quas ipsa aperiam magnam officiis libero expedita quo voluptas deleniti sit dolore? Praesentium tempora cumque facere consectetur quia, molestiae quam, accusamus eius corrupti laudantium aliquid! Tempore laudantium unde labore voluptates repellat, dignissimos aperiam ad ipsum laborum recusandae voluptatem non dolore. Reiciendis cum quo illum. Dolorem, molestiae corporis.",
@@ -118,7 +118,7 @@
       "best_seller": false
     },
     {
-      "id": 10010,
+      "id": "10010",
       "name": "Mastering Software Technique",
       "overview": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Error unde quisquam magni vel eligendi nam.",
       "long_description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Soluta aut, vel ipsum maxime quam quia, quaerat tempore minus odio exercitationem illum et eos, quas ipsa aperiam magnam officiis libero expedita quo voluptas deleniti sit dolore? Praesentium tempora cumque facere consectetur quia, molestiae quam, accusamus eius corrupti laudantium aliquid! Tempore laudantium unde labore voluptates repellat, dignissimos aperiam ad ipsum laborum recusandae voluptatem non dolore. Reiciendis cum quo illum. Dolorem, molestiae corporis.",
@@ -131,7 +131,7 @@
       "best_seller": false
     },
     {
-      "id": 10011,
+      "id": "10011",
       "name": "Web Development Foundation",
       "overview": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Error unde quisquam magni vel eligendi nam.",
       "long_description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Soluta aut, vel ipsum maxime quam quia, quaerat tempore minus odio exercitationem illum et eos, quas ipsa aperiam magnam officiis libero expedita quo voluptas deleniti sit dolore? Praesentium tempora cumque facere consectetur quia, molestiae quam, accusamus eius corrupti laudantium aliquid! Tempore laudantium unde labore voluptates repellat, dignissimos aperiam ad ipsum laborum recusandae voluptatem non dolore. Reiciendis cum quo illum. Dolorem, molestiae corporis.",
@@ -144,7 +144,7 @@
       "best_seller": true
     },
     {
-      "id": 10012,
+      "id": "10012",
       "name": "Mastering Git and GitHub - A Practical Guide",
       "overview": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Error unde quisquam magni vel eligendi nam.",
       "long_description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Soluta aut, vel ipsum maxime quam quia, quaerat tempore minus odio exercitationem illum et eos, quas ipsa aperiam magnam officiis libero expedita quo voluptas deleniti sit dolore? Praesentium tempora cumque facere consectetur quia, molestiae quam, accusamus eius corrupti laudantium aliquid! Tempore laudantium unde labore voluptates repellat, dignissimos aperiam ad ipsum laborum recusandae voluptatem non dolore. Reiciendis cum quo illum. Dolorem, molestiae corporis.",
@@ -157,7 +157,7 @@
       "best_seller": false
     },
     {
-      "id": 10013,
+      "id": "10013",
       "name": "Everything About React v16",
       "overview": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Error unde quisquam magni vel eligendi nam.",
       "long_description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Soluta aut, vel ipsum maxime quam quia, quaerat tempore minus odio exercitationem illum et eos, quas ipsa aperiam magnam officiis libero expedita quo voluptas deleniti sit dolore? Praesentium tempora cumque facere consectetur quia, molestiae quam, accusamus eius corrupti laudantium aliquid! Tempore laudantium unde labore voluptates repellat, dignissimos aperiam ad ipsum laborum recusandae voluptatem non dolore. Reiciendis cum quo illum. Dolorem, molestiae corporis.",
@@ -170,7 +170,7 @@
       "best_seller": false
     },
     {
-      "id": 10014,
+      "id": "10014",
       "name": "Diving Deep With Python 2.7",
       "overview": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Error unde quisquam magni vel eligendi nam.",
       "long_description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Soluta aut, vel ipsum maxime quam quia, quaerat tempore minus odio exercitationem illum et eos, quas ipsa aperiam magnam officiis libero expedita quo voluptas deleniti sit dolore? Praesentium tempora cumque facere consectetur quia, molestiae quam, accusamus eius corrupti laudantium aliquid! Tempore laudantium unde labore voluptates repellat, dignissimos aperiam ad ipsum laborum recusandae voluptatem non dolore. Reiciendis cum quo illum. Dolorem, molestiae corporis.",
@@ -183,7 +183,7 @@
       "best_seller": false
     },
     {
-      "id": 10015,
+      "id": "10015",
       "name": "Kickstart Your UI Design Career",
       "overview": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Error unde quisquam magni vel eligendi nam.",
       "long_description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Soluta aut, vel ipsum maxime quam quia, quaerat tempore minus odio exercitationem illum et eos, quas ipsa aperiam magnam officiis libero expedita quo voluptas deleniti sit dolore? Praesentium tempora cumque facere consectetur quia, molestiae quam, accusamus eius corrupti laudantium aliquid! Tempore laudantium unde labore voluptates repellat, dignissimos aperiam ad ipsum laborum recusandae voluptatem non dolore. Reiciendis cum quo illum. Dolorem, molestiae corporis.",
@@ -198,7 +198,7 @@
   ],
   "featured_products": [
     {
-      "id": 10004,
+      "id": "10004",
       "name": "The Complete Guide to Backend Development",
       "overview": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Error unde quisquam magni vel eligendi nam.",
       "long_description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Soluta aut, vel ipsum maxime quam quia, quaerat tempore minus odio exercitationem illum et eos, quas ipsa aperiam magnam officiis libero expedita quo voluptas deleniti sit dolore? Praesentium tempora cumque facere consectetur quia, molestiae quam, accusamus eius corrupti laudantium aliquid! Tempore laudantium unde labore voluptates repellat, dignissimos aperiam ad ipsum laborum recusandae voluptatem non dolore. Reiciendis cum quo illum. Dolorem, molestiae corporis.",
@@ -211,7 +211,7 @@
       "best_seller": true
     },
     {
-      "id": 10006,
+      "id": "10006",
       "name": "Frontend Fastlane Plan With Projects",
       "overview": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Error unde quisquam magni vel eligendi nam.",
       "long_description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Soluta aut, vel ipsum maxime quam quia, quaerat tempore minus odio exercitationem illum et eos, quas ipsa aperiam magnam officiis libero expedita quo voluptas deleniti sit dolore? Praesentium tempora cumque facere consectetur quia, molestiae quam, accusamus eius corrupti laudantium aliquid! Tempore laudantium unde labore voluptates repellat, dignissimos aperiam ad ipsum laborum recusandae voluptatem non dolore. Reiciendis cum quo illum. Dolorem, molestiae corporis.",
@@ -219,12 +219,12 @@
       "poster": "https://images.unsplash.com/photo-1522542550221-31fd19575a2d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=650&q=40",
       "image_local": "/assets/images/10006.avif",
       "rating": 5,
-      "in_stock": true,
+      "in_stock": false,
       "size": 10,
       "best_seller": false
     },
     {
-      "id": 10008,
+      "id": "10008",
       "name": "JavaScript Basics To Advance With Shubham",
       "overview": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Error unde quisquam magni vel eligendi nam.",
       "long_description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Soluta aut, vel ipsum maxime quam quia, quaerat tempore minus odio exercitationem illum et eos, quas ipsa aperiam magnam officiis libero expedita quo voluptas deleniti sit dolore? Praesentium tempora cumque facere consectetur quia, molestiae quam, accusamus eius corrupti laudantium aliquid! Tempore laudantium unde labore voluptates repellat, dignissimos aperiam ad ipsum laborum recusandae voluptatem non dolore. Reiciendis cum quo illum. Dolorem, molestiae corporis.",
@@ -274,15 +274,133 @@
         "email": "shubham@example.com",
         "id": 1
       },
-      "id": 1
+      "id": "1"
     }
   ],
   "users": [
     {
+      "id": "1",
+      "name": "Shubham",
+      "email": "shubham1@example.com",
+      "password": "password1"
+    },
+    {
+      "id": "e1f7",
       "email": "shubham@example.com",
-      "password": "$2a$10$K9aEH3/VDb2QU/EsjrHGJO7X5JxCcg0bMAnBtyT3kBW9FL7FnnygO",
-      "name": "Shubham Sarda",
-      "id": 1
+      "passowrd": "fgsdfgsdfg",
+      "accesstoken": "jkjhkjhjk"
+    },
+    {
+      "id": "9e74",
+      "email": "shubham@example.com",
+      "passowrd": "hjhkhjjojojopj",
+      "accesstoken": ""
+    },
+    {
+      "id": "a1c5",
+      "email": "shubham@example.com",
+      "passowrd": "hjhkhjjojojopj",
+      "accesstoken": ""
+    },
+    {
+      "id": "a86d",
+      "name": "shubham",
+      "email": "shubham@example.com",
+      "password": "hjhgjhggggjhg",
+      "accessToken": ""
+    },
+    {
+      "id": "55c4",
+      "name": "shubham",
+      "email": "shubham@example.com",
+      "password": "hjhgjhggggjhg",
+      "accessToken": "jhkhkhkjh"
+    },
+    {
+      "id": "c65b",
+      "name": "shubham",
+      "email": "shubham@example.com",
+      "password": "gjhghhihhkh",
+      "accessToken": "jhkhkhkjh"
+    },
+    {
+      "id": "5674",
+      "email": "shubham@gmail.com",
+      "passowrd": "asdfsadfasdf",
+      "accesstoken": "kjhkjhkhkhkj"
+    },
+    {
+      "id": "80aa",
+      "name": "temiv",
+      "email": "temiv96031@iminko.com",
+      "password": "jhbkjbnkjnkjn",
+      "accessToken": "jhkhkhkjh"
+    },
+    {
+      "id": "23a9",
+      "email": "Shubham@gmail.com",
+      "passowrd": "sdfsdfsadf",
+      "accesstoken": "kjhkjhkhkhkj"
+    },
+    {
+      "id": "7399",
+      "email": "shubham@example.com",
+      "passowrd": "fghsfdghsdfgdsfg",
+      "accesstoken": "kjhkjhkhkhkj"
+    },
+    {
+      "id": "ceb1",
+      "email": "nirajdas@gmail.com",
+      "passowrd": "asfasdfasdf",
+      "accesstoken": "kjhkjhkhkhkj"
+    },
+    {
+      "id": "1f3a",
+      "email": "dsfsdfsdf@gmail.com",
+      "passowrd": "sfsdfsadfsadf",
+      "accesstoken": "kjhkjhkhkhkj"
+    },
+    {
+      "id": "8776",
+      "email": "jjhkj@gmail.com",
+      "passowrd": "sdfasdf",
+      "accesstoken": "kjhkjhkhkhkj"
+    },
+    {
+      "id": "48f4",
+      "email": "nirajdas@gmail.com",
+      "passowrd": "asdfasdfasd",
+      "accesstoken": "kjhkjhkhkhkj"
+    },
+    {
+      "id": "9945",
+      "email": "flskdjfl@gmail.com",
+      "passowrd": "sdfasdfsd",
+      "accesstoken": "kjhkjhkhkhkj"
+    },
+    {
+      "id": "f218",
+      "email": "sdfasdf@gmail.com",
+      "passowrd": "asdfsadf",
+      "accesstoken": "kjhkjhkhkhkj"
+    },
+    {
+      "id": "f577",
+      "email": "niraj@gmail.com",
+      "passowrd": "sdfsdfsad",
+      "accesstoken": "kjhkjhkhkhkj"
+    },
+    {
+      "id": "3af6",
+      "email": "ashdkfjhsdk@gmail.com",
+      "passowrd": "fsafsadf",
+      "accesstoken": "kjhkjhkhkhkj"
+    },
+    {
+      "id": "15f0",
+      "email": "adfadf@gmail.com",
+      "passowrd": "asdfasdfa",
+      "accesstoken": "kjhkjhkhkhkj"
     }
   ]
 }

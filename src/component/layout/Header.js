@@ -1,9 +1,14 @@
 import React, { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom';
-import logo from "../assets/codebooklogo.png";
+import logo from "../../assets/codebooklogo.png";
+import { Search } from '../section/Search';
+import {DropdownLoggedOut } from '../Element/DropdownLoggedOut';
+import { DropdownLogIn } from '../Element/DropdownLogIn';
+import {useCart} from "../../Context/index"
 
 export const Header = () => {
   const [darkmode,setDarkMode]=useState(JSON.parse(localStorage.getItem("darkmode"))||false);
+  const {cartList} = useCart()
 
   useEffect(()=>{
     localStorage.setItem(("darkmode"),JSON.stringify(darkmode));
@@ -15,7 +20,10 @@ export const Header = () => {
       document.documentElement.classList.remove("dark")
     }
   },[darkmode])
-
+  const [search,setSearch]=useState(false);
+  const [dropdown,setDropDown]=useState(false);
+  const token  =JSON.parse(sessionStorage.getItem("token"))
+  
   return (
     <header>
             <nav className=" bg-gray-400 border-gray-200 dark:bg-gray-900">
@@ -26,16 +34,19 @@ export const Header = () => {
                 </Link>
                 <div className="flex items-center ">
                     <span onClick={()=>setDarkMode(!darkmode)} className='cursor-pointer text-xl text-gray-700 dark:text-white mr-5 bi bi-gear-wide-connected'></span>
-                    <span className='cursor-pointer text-xl text-gray-700 dark:text-white mr-5 bi bi-search'></span>
+                    <span onClick={()=>setSearch(!search)} className='cursor-pointer text-xl text-gray-700 dark:text-white mr-5 bi bi-search'></span>
                     <Link to="/cart" className='text-gray-700 dark:text-white mr-5'>
                       <span className=' text-2xl bi bi-cart-fill  relative '>
-                        <span className='absolute text-sm -top-1 left-2.5 text-white  rounded-full px-2 bg-rose-500'>0</span>
+                        <span className='absolute text-sm -top-1 left-2.5 text-white  rounded-full px-2 bg-rose-500'>{cartList.length}</span>
                       </span>
                     </Link>
-                    <span className='cursor-pointer text-xl text-gray-700 dark:text-white mr-5 bi bi-person-circle'></span>
+                    <span onClick={()=>setDropDown(!dropdown)} className='cursor-pointer text-xl text-gray-700 dark:text-white mr-5 bi bi-person-circle'></span>
+                    {dropdown && (token ? <DropdownLogIn setDropDown={setDropDown} dropdown={dropdown} />:<DropdownLoggedOut setDropDown={setDropDown} dropdown={dropdown} />) }
                 </div>
             </div>
         </nav>
+        {search && ( <Search />)}
+        
        
     </header>
     
