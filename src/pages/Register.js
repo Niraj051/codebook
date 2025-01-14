@@ -8,26 +8,35 @@ export const Register = () => {
     event.preventDefault();
     
     const authDetail = {
+        
         name: event.target.name.value,
         email: event.target.email.value,
         password: event.target.password.value,
-        accessToken:"hellosldfk"
+        
       }
-      const headerportion= {
-        method:"POST",
-        headers:{"Content-Type": "application/json"},
-        body:JSON.stringify(authDetail)
-    }
+    //   const headerportion= {
+    //     method:"POST",
+    //     headers:{"Content-Type": "application/json"},
+    //     body:JSON.stringify(authDetail)
+    // }
     
-    const response = await fetch(`${process.env.REACT_APP_HOST}/register`,headerportion);
-    const data = await response.json()
-    data.accessToken ? navigate("/products") :toast.error("email already present")
-    console.log(data)
-    if (data.accesstoken)
+    // const response = await fetch(`${process.env.REACT_APP_HOST}/register`,headerportion);
+    // const data = await response.json()
+    // data.accessToken ? navigate("/products") :toast.error("email already present")
+    // console.log(data)
+    const data={
+      id:Math.floor(Math.random() * 10),
+      token:Math.floor(Math.random() * 10)
+    }
+    if (data.token) 
       {
-        sessionStorage.setItem("accesstoken",JSON.stringify(data.accesstoken));
-        sessionStorage.setItem("cbid",JSON.stringify(data.id))
+        sessionStorage.setItem("accesstoken",JSON.stringify(authDetail.accesstoken));
+        sessionStorage.setItem("cbid",JSON.stringify(data.id));
+        sessionStorage.setItem("name",JSON.stringify(authDetail.name));
+        sessionStorage.setItem("name",JSON.stringify(authDetail.email));
+        sessionStorage.setItem("name",JSON.stringify(authDetail.password));
       }
+      navigate("/login");
     
    }
   return (

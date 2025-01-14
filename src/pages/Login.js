@@ -10,23 +10,32 @@ export const Login = () => {
         event.preventDefault();
         const authLogging={
           email:email.current.value,
-          passowrd:password.current.value,
+          passowrd:password.current.value
           
       }
-      const headerDetail={
-        method:"POST",
-        headers:{"content-Type":"application/json"},
-        body:JSON.stringify(authLogging)
-      }
-      const response= await fetch(`${process.env.REACT_APP_HOST}/users`,headerDetail);
-      const data = await response.json()
-      console.log(data)
-      data.accesstoken ? navigate("/products") : toast.error("incorrect password");
-      if (data.accesstoken)
+      const token=JSON.parse(sessionStorage.getItem("token"));
+      const password=JSON.parse(sessionStorage.getItem("password"));
+      const email=JSON.parse(sessionStorage.getItem("email"));
+      // const headerDetail={
+      //   method:"POST",
+      //   headers:{"content-Type":"application/json"},
+      //   body:JSON.stringify(authLogging)
+      // }
+      // const response= await fetch(`${process.env.REACT_APP_HOST}/users`,headerDetail);
+      // const data = await response.json()
+      // console.log(data)
+      if(authLogging.email === email)
       {
-        sessionStorage.setItem("token",JSON.stringify(data.accesstoken));
-        sessionStorage.setItem("cbid",JSON.stringify(data.id))
+        if(authLogging.passowrd === password )
+        {
+          token && navigate("/products")
+
+        }
+        return toast.error("incorrect password");
+
       }
+        return toast.error("incorrect email ");
+       
         
   }
   return (
