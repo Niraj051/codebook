@@ -11,14 +11,14 @@ export const Login = () => {
         const authLogging={
           email:email.current.value,
           passowrd:password.current.value,
-          accesstoken:"kjhkjhkhkhkj"
+          
       }
       const headerDetail={
         method:"POST",
         headers:{"content-Type":"application/json"},
         body:JSON.stringify(authLogging)
       }
-      const response= await fetch("http://localhost:8000/users",headerDetail);
+      const response= await fetch(`${process.env.REACT_APP_HOST}/users`,headerDetail);
       const data = await response.json()
       console.log(data)
       data.accesstoken ? navigate("/products") : toast.error("incorrect password");

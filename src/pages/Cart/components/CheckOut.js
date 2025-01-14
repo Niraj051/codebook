@@ -8,7 +8,7 @@ export const CheckOut = ({checkout,setCheckout}) => {
 
     useEffect(()=>{
         async function getUser() {
-            const response = await fetch(`http://localhost:8000/users/${cbid}`,
+            const response = await fetch(`${process.env.REACT_APP_HOST}/${cbid}`,
                 {
                     method:"GET",
                     headers:{"content-Type":"application/json",Authorization:`Bearer ${token}`}
@@ -21,7 +21,7 @@ export const CheckOut = ({checkout,setCheckout}) => {
             
         }
         getUser();
-    },[])
+    },[cbid,token])
     const {total} = useCart();
   return (
     <section>

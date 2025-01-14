@@ -6,7 +6,7 @@ export const FeatureProduct = () => {
   
   useEffect(()=>{
      async function fetchProduct() {
-      const response = await fetch("http://localhost:8000/featured_products");
+      const response = await fetch(`${process.env.REACT_APP_HOST}/featured_products`);
       const json=await response.json();
       setProducts(json);
 

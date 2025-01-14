@@ -11,14 +11,15 @@ export const Register = () => {
         name: event.target.name.value,
         email: event.target.email.value,
         password: event.target.password.value,
-        accessToken:"jhkhkhkjh"
+        accessToken:"hellosldfk"
       }
       const headerportion= {
         method:"POST",
         headers:{"Content-Type": "application/json"},
         body:JSON.stringify(authDetail)
     }
-    const response = await fetch("http://localhost:8000/users",headerportion);
+    try{
+      const response = await fetch(`${process.env.REACT_APP_HOST}/register`,headerportion);
     const data = await response.json()
     data.accessToken ? navigate("/products") :toast.error("email already present")
     console.log(data)
@@ -27,6 +28,20 @@ export const Register = () => {
         sessionStorage.setItem("accesstoken",JSON.stringify(data.accesstoken));
         sessionStorage.setItem("cbid",JSON.stringify(data.id))
       }
+    }
+    catch{
+      const response = await fetch(`${process.env.REACT_APP_HOST}/register`,headerportion);
+    const data = await response.json()
+    data.accessToken ? navigate("/products") :toast.error("email already present")
+    console.log(data)
+    if (data.accesstoken)
+      {
+        sessionStorage.setItem("accesstoken",JSON.stringify(data.accesstoken));
+        sessionStorage.setItem("cbid",JSON.stringify(data.id))
+      }
+    }
+    
+  
     
    }
   return (

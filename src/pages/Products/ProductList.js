@@ -17,7 +17,7 @@ export const ProductList = ({title}) => {
   
   useEffect(()=>{
     async function fetchProductlist() {
-      const response=await fetch(`http://localhost:8000/products?name_like = ${searchTerm ? searchTerm :""}`);
+      const response=await fetch(`${process.env.REACT_APP_HOST}/products?name_like = ${searchTerm ? searchTerm :""}`);
       const products= await response.json();
       initialProductList(products);
       
