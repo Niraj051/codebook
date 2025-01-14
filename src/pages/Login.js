@@ -43,10 +43,19 @@ export const Login = () => {
         authLogging.token && navigate("/products")
 
       }
-      return toast.error("incorrect password");
+      else
+      {
+        return toast.error("incorrect password");
+
+      }
+      
 
     }
+    else
+    {
       return toast.error("incorrect email ");
+    }
+     
   }
   return (
     <main>
