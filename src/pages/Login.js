@@ -9,34 +9,44 @@ export const Login = () => {
   async function handleLogging(event) {
         event.preventDefault();
         const authLogging={
-          email:email.current.value,
-          passowrd:password.current.value
+          email: email.current.value,
+          passowrd:password.current.value,
+          token:Math.floor(Math.random() * 10)
           
       }
-      const token=JSON.parse(sessionStorage.getItem("token"));
-      const password=JSON.parse(sessionStorage.getItem("password"));
-      const email=JSON.parse(sessionStorage.getItem("email"));
-      // const headerDetail={
-      //   method:"POST",
-      //   headers:{"content-Type":"application/json"},
-      //   body:JSON.stringify(authLogging)
-      // }
-      // const response= await fetch(`${process.env.REACT_APP_HOST}/users`,headerDetail);
-      // const data = await response.json()
-      // console.log(data)
-      if(authLogging.email === email)
-      {
-        if(authLogging.passowrd === password )
-        {
-          token && navigate("/products")
-
-        }
-        return toast.error("incorrect password");
-
-      }
-        return toast.error("incorrect email ");
+    const token=JSON.parse(sessionStorage.getItem("token"));
+    const passwords=JSON.parse(sessionStorage.getItem("password"));
+    const emails=JSON.parse(sessionStorage.getItem("email"));
+    handleAuth(authLogging,token,emails,passwords);
+     
        
         
+  }
+  const handleAuth=(authLogging,emails,passowrds,token)=>
+  {
+    console.log(authLogging )
+    console.log(emails )
+    
+    
+    // const headerDetail={
+    //   method:"POST",
+    //   headers:{"content-Type":"application/json"},
+    //   body:JSON.stringify(authLogging)
+    // }
+    // const response= await fetch(`${process.env.REACT_APP_HOST}/users`,headerDetail);
+    // const data = await response.json()
+    // console.log(data)
+    if(authLogging.email === email)
+    {
+      if(authLogging.passowrd === password )
+      {
+        authLogging.token && navigate("/products")
+
+      }
+      return toast.error("incorrect password");
+
+    }
+      return toast.error("incorrect email ");
   }
   return (
     <main>

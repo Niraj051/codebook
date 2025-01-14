@@ -1,5 +1,5 @@
 import React from 'react'
-import {toast} from "react-toastify";
+// import {toast} from "react-toastify";
 import { useNavigate } from 'react-router-dom';
 
 export const Register = () => {
@@ -26,15 +26,15 @@ export const Register = () => {
     // console.log(data)
     const data={
       id:Math.floor(Math.random() * 10),
-      token:Math.floor(Math.random() * 10)
+      
     }
     if (data.token) 
       {
-        sessionStorage.setItem("accesstoken",JSON.stringify(authDetail.accesstoken));
+        
         sessionStorage.setItem("cbid",JSON.stringify(data.id));
         sessionStorage.setItem("name",JSON.stringify(authDetail.name));
-        sessionStorage.setItem("name",JSON.stringify(authDetail.email));
-        sessionStorage.setItem("name",JSON.stringify(authDetail.password));
+        sessionStorage.setItem("email",JSON.stringify(authDetail.email));
+        sessionStorage.setItem("password",JSON.stringify(authDetail.password));
       }
       navigate("/login");
     
