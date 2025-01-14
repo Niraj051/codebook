@@ -14,15 +14,16 @@ export const Login = () => {
           token:Math.floor(Math.random() * 10)
           
       }
-    const token=JSON.parse(sessionStorage.getItem("token"));
+    
     const passwords=JSON.parse(sessionStorage.getItem("password"));
     const emails=JSON.parse(sessionStorage.getItem("email"));
-    handleAuth(authLogging,token,emails,passwords);
+    handleAuth(authLogging,emails,passwords);
+    console.log(passwords)
      
        
         
   }
-  const handleAuth=(authLogging,emails,passowrds,token)=>
+  const handleAuth=(authLogging,emails,passwords)=>
   {
     console.log(authLogging )
     console.log(emails )
@@ -36,9 +37,9 @@ export const Login = () => {
     // const response= await fetch(`${process.env.REACT_APP_HOST}/users`,headerDetail);
     // const data = await response.json()
     // console.log(data)
-    if(authLogging.email === email)
+    if(authLogging.email === emails)
     {
-      if(authLogging.passowrd === password )
+      if(authLogging.passowrd === passwords )
       {
         authLogging.token && navigate("/products")
 

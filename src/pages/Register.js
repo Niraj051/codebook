@@ -28,7 +28,7 @@ export const Register = () => {
       id:Math.floor(Math.random() * 10),
       
     }
-    if (data.token) 
+    if (data.id) 
       {
         
         sessionStorage.setItem("cbid",JSON.stringify(data.id));
